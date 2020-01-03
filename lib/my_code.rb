@@ -2,7 +2,7 @@
 def map(array)
   new = []
   i =0 
-  while array[i]< array[i].length do
+  while i < array.length 
     push.(yield(array[i]))
     i +=1 
   end
